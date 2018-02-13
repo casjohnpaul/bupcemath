@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvAppName"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginBottom="25dp"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_full_name" />
+
+    <Button
+        android:id="@+id/btnStartQuiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvAppName"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:paddingEnd="35dp"
+        android:paddingStart="35dp"
+        android:text="Start E-Math Quiz"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
